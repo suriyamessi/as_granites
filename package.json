@@ -1,0 +1,10 @@
+{
+  "name": "as-granite",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Responsive A.S. Granites business website for Salem, Tamil Nadu. Run npm start or open index.html; enquiries prepare WhatsApp messages. Product textures and architectural imagery are illustrative; verified collections, factory media and admin authentication must be supplied before production.",
+  "scripts": {
+    "start": "node server.js",
+    "check": "node --check script.js && node --check server.js"
+  }
+}

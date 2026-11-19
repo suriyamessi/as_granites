@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1200" viewBox="0 0 1000 1200">
+  <defs>
+    <linearGradient id="wall"><stop stop-color="#747b70"/><stop offset="1" stop-color="#c5c7b7"/></linearGradient>
+    <linearGradient id="stone" x2="1" y2="1"><stop stop-color="#c8cbbd"/><stop offset=".5" stop-color="#e6e5d8"/><stop offset="1" stop-color="#9ca597"/></linearGradient>
+    <linearGradient id="mirror" x2="1" y2="1"><stop stop-color="#4c5d50"/><stop offset=".5" stop-color="#a9b5a1"/><stop offset="1" stop-color="#63745f"/></linearGradient>
+    <pattern id="vein" width="450" height="550" patternUnits="userSpaceOnUse"><rect width="450" height="550" fill="url(#stone)"/><g fill="none" stroke="#6b7769" opacity=".45"><path d="m0 40 120 70 30 130 140 30 70 170 130 50M120 110l90-50 80-100M150 240l-70 90-100 35M290 270l110-30 70-100" stroke-width="2"/><path d="m0 60 120 70 20 140 140 20 60 180 140 40" stroke-width=".6"/></g></pattern>
+    <pattern id="wood" width="16" height="100" patternUnits="userSpaceOnUse"><rect width="16" height="100" fill="#4a4937"/><path d="M0 0v100" stroke="#232e22" stroke-width="4"/></pattern>
+  </defs>
+  <path fill="url(#wall)" d="M0 0h1000v1200H0z"/>
+  <path fill="url(#vein)" d="M0 0h820v850H0z"/>
+  <path fill="#57614d" d="M820 0h180v1200H820z"/>
+  <path fill="#263828" d="M850 0h150v780H850z"/>
+  <path fill="#c7d2b7" d="M865 0h135v755H865z"/>
+  <path d="M940 0v755M865 370h135" stroke="#384c32" stroke-width="9"/>
+  <path fill="#87976e" opacity=".6" d="M900 755V320q-100-170 40-170 110 30 60 350v255Z"/>
+  <path fill="#3b4937" d="M115 112h570v480H115z"/>
+  <path fill="url(#mirror)" d="M122 119h556v466H122z"/>
+  <path fill="#e5dfc4" d="M580 120h7v465h-7z"/>
+  <path fill="#aeb6a1" opacity=".5" d="M150 120h140v465H150z"/>
+  <path fill="#716b52" d="M70 725h650v300H70z"/>
+  <path fill="url(#wood)" d="M70 725h650v300H70z"/>
+  <path fill="#b2b9a7" d="M35 660h735v83H35z"/>
+  <path fill="url(#vein)" d="m35 660 80-60h640l20 60Z"/>
+  <ellipse cx="365" cy="648" rx="151" ry="30" fill="#535f50"/>
+  <ellipse cx="365" cy="655" rx="139" ry="20" fill="#c5cbb9"/>
+  <path d="M405 620V527q0-30-30-30h-30v18h27q15 0 15 15v90" fill="#9b8659"/>
+  <path fill="#858771" d="M0 1060 820 850l180 350H0z"/>
+  <path fill="url(#vein)" d="M0 1060 820 850l180 350H0z" opacity=".6"/>
+  <g fill="#ae9869"><rect x="45" y="290" width="14" height="180" rx="7"/><rect x="738" y="290" width="14" height="180" rx="7"/></g>
+  <g fill="#fcf0c3"><rect x="47" y="300" width="10" height="160" rx="5"/><rect x="740" y="300" width="10" height="160" rx="5"/></g>
+  <path fill="#354a32" d="m625 632 5-85h50l5 85Z"/>
+  <g stroke="#566941" fill="#6c7d54" stroke-width="4"><path d="M654 568V410M652 520l-50-65M655 488l40-70"/><ellipse cx="600" cy="450" rx="14" ry="35" transform="rotate(-35 600 450)"/><ellipse cx="696" cy="415" rx="13" ry="32" transform="rotate(30 696 415)"/><ellipse cx="654" cy="410" rx="14" ry="38"/></g>
+  <path fill="#eee9d9" d="M83 641h80v12H83zM88 627h70v12H88z"/>
+</svg>

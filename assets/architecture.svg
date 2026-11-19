@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200">
+  <defs>
+    <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#b9c3b4"/><stop offset="1" stop-color="#e1dfce"/></linearGradient>
+    <linearGradient id="stone"><stop stop-color="#747d6d"/><stop offset="1" stop-color="#9da28d"/></linearGradient>
+    <pattern id="tiles" width="220" height="100" patternUnits="userSpaceOnUse"><rect width="220" height="100" fill="url(#stone)"/><path d="M0 0h220v100H0z" stroke="#4d5b48" stroke-width="1"/><path d="m20 30 70 20 90-20" stroke="#b0b49e" fill="none" opacity=".15"/></pattern>
+    <linearGradient id="glass" x2="1" y2="1"><stop stop-color="#273b2f"/><stop offset=".5" stop-color="#6c7f69"/><stop offset="1" stop-color="#263b2d"/></linearGradient>
+    <pattern id="wood" width="18" height="100" patternUnits="userSpaceOnUse"><rect width="18" height="100" fill="#6c6549"/><path d="M0 0v100" stroke="#383f2d" stroke-width="4"/></pattern>
+  </defs>
+  <path fill="url(#sky)" d="M0 0h1200v1200H0z"/>
+  <path fill="#919783" d="M0 1000 1200 860v340H0z"/>
+  <path fill="#c3c4b0" d="M75 310 870 175l300 100-780 160Z"/>
+  <path fill="url(#tiles)" d="M75 310v620l795-50V175Z"/>
+  <path fill="#59644e" d="M870 175 1170 275v660l-300-55Z"/>
+  <path fill="#d8d5bf" d="m150 390 650-98v418l-650 64Z"/>
+  <path fill="url(#glass)" d="m175 407 600-89v364l-600 59Z"/>
+  <path d="M365 378v345M580 346v355" stroke="#303e2a" stroke-width="10"/>
+  <path fill="#2f3d2c" d="m75 800 795-65v43L75 846Z"/>
+  <path fill="#2f402e" d="M150 845 770 795v276l-620 56Z"/>
+  <path fill="url(#glass)" d="m180 866 565-46v226l-565 51Z"/>
+  <path fill="url(#wood)" d="m360 850 160-13v250l-160 14Z"/>
+  <path fill="#2c3a28" d="M0 1080 1200 975v45L0 1130z"/>
+  <path fill="#c0bfa9" d="m0 1130 1200-110v48L0 1180Z"/>
+  <path fill="#838e75" d="m0 1180 1200-112v132H0Z"/>
+  <g stroke="#686e59" stroke-width="1"><path d="m0 1197 1200-110M200 1160l-50 40M460 1135l10 65M710 1110l100 90M980 1080l180 120"/></g>
+  <g fill="#4f6243"><ellipse cx="100" cy="1010" rx="125" ry="80"/><ellipse cx="1100" cy="985" rx="120" ry="95"/><ellipse cx="1000" cy="1015" rx="90" ry="65"/></g>
+  <g fill="#60754e"><ellipse cx="65" cy="990" rx="75" ry="65"/><ellipse cx="1150" cy="940" rx="100" ry="80"/><ellipse cx="1035" cy="984" rx="70" ry="50"/></g>
+  <path fill="#354c33" d="M1090 1010V250h18v760Z"/>
+  <g fill="#72855b"><ellipse cx="1100" cy="255" rx="170" ry="150"/><ellipse cx="1020" cy="200" rx="140" ry="110"/><ellipse cx="1180" cy="160" rx="150" ry="140"/><ellipse cx="1130" cy="70" rx="160" ry="130"/></g>
+  <g fill="#87966a" opacity=".6"><ellipse cx="1000" cy="160" rx="90" ry="80"/><ellipse cx="1120" cy="40" rx="100" ry="90"/><ellipse cx="1195" cy="220" rx="80" ry="80"/></g>
+</svg>
